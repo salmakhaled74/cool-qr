@@ -1,0 +1,178 @@
+.h1 {
+  color: #45a1ff;
+  font-family: Tahoma, Verdana, sans-serif;
+  text-align: center;
+}
+
+.qrcode {
+  border: 3px solid #45a1ff;
+  width: 160px;
+  height: 160px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+input[type=url] {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid #45a1ff;
+  background-color: #F2F2F2;
+}
+
+.ourinput {
+
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  justify-content: center;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.navv {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #45a1ff;
+}
+
+.f {
+  padding: 4px;
+  background-color: #45a1ff;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .navv {
+    height: 30px;
+  }
+
+  .f {
+    font-size: 12px;
+    padding: 2px;
+  }
+}
+
+.text {
+  border: 5px solid;
+  border-radius: 30px;
+  width: 50%;
+  order: 1;
+  border-color: #45a1ff;
+  background-color: #F2F2F2;
+}
+
+
+
+.cartoon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  height: 600px;
+  order: 2;
+}
+
+.cartoon img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  max-height: 100%;
+}
+
+
+
+@media (max-width: 1202px) {
+
+  .text,
+  .cartoon {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .text {
+    margin-bottom: 100px;
+  }
+
+  .text {
+    order: 2;
+  }
+
+  .cartoon {
+    order: 1;
+  }
+
+}
+
+
+
+.download {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.bdiv {
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn2:hover,
+.btn1:hover {
+  color: white;
+  background-color: #45a1ff;
+}
+
+.btn1 {
+  transition-duration: 0.4s;
+  text-overflow: ellipsis;
+  height: 60px;
+  width: 110px;
+  font-size: 20px;
+  border-radius: 2.5em;
+  border-color: #45a1ff;
+  color: #45a1ff;
+  font-family: Tahoma, Verdana, sans-serif;
+  background-color: #F2F2F2;
+}
+
+.btn2 {
+  transition-duration: 0.4s;
+  text-overflow: ellipsis;
+  height: 60px;
+  width: 160px;
+  font-size: 20px;
+  position: relative;
+  padding: 10px 20px 10px 50px;
+  display: inline-block;
+  border-radius: 2.5em;
+  border-color: #45a1ff;
+  color: #45a1ff;
+  font-family: Tahoma, Verdana, sans-serif;
+  background-color: white;
+}
+
+.btn2 img {
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+}
