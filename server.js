@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/', (req, res) => {
-  const { url, size } = req.body;
+  const { url } = req.body;
   const options = {
     width: 160,
     height: 160
