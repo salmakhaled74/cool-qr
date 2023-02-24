@@ -147,7 +147,7 @@ input[type=url] {
   width: 110px;
   font-size: 20px;
   border-radius: 2.5em;
-  border-color: #45a1ff;
+  border: 2px solid #45a1ff; 
   color: #45a1ff;
   font-family: Tahoma, Verdana, sans-serif;
   background-color: #F2F2F2;
@@ -160,6 +160,7 @@ input[type=url] {
   height: 60px;
   width: 160px;
   font-size: 20px;
+  border-style: solid;
   position: relative;
   padding: 10px 20px 10px 50px;
   display: inline-block;
