@@ -23,7 +23,6 @@ input[type=url] {
 }
 
 .ourinput {
-
   display: flex;
   justify-content: center;
 }
@@ -67,7 +66,7 @@ input[type=url] {
   }
 }
 
-#inputVal{
+#inputVal {
   box-shadow: 10px 5px 5px #45a1ff;
   height: 25px;
   width: 250px;
@@ -139,7 +138,8 @@ input[type=url] {
   background-color: #45a1ff;
 }
 
-.btn1 {
+.btn1,
+.btn2 {
   box-shadow: 10px 5px 5px #45a1ff;
   transition-duration: 0.4s;
   text-overflow: ellipsis;
@@ -147,36 +147,8 @@ input[type=url] {
   width: 110px;
   font-size: 20px;
   border-radius: 2.5em;
-  border: 2px solid #45a1ff; 
+  border: 2px solid #45a1ff;
   color: #45a1ff;
   font-family: Tahoma, Verdana, sans-serif;
   background-color: #F2F2F2;
-}
-
-.btn2 {
-  box-shadow: 10px 5px 5px #45a1ff;
-  transition-duration: 0.4s;
-  text-overflow: ellipsis;
-  height: 60px;
-  width: 160px;
-  font-size: 20px;
-  border-style: solid;
-  position: relative;
-  padding: 10px 20px 10px 50px;
-  display: inline-block;
-  border-radius: 2.5em;
-  border-color: #45a1ff;
-  color: #45a1ff;
-  font-family: Tahoma, Verdana, sans-serif;
-  background-color: white;
-}
-
-.btn2 img {
-  display: inline-block;
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 30px;
-  height: 30px;
 }
