@@ -1,1 +1,1 @@
-![My Project](https://imgur.com/a/HFF4opo)
+![My Project Logo](https://imgur.com/ILm76lx)
