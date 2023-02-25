@@ -1,1 +1,1 @@
-![My Project Logo](https://www50.zippyshare.com/v/7ZD80OcO/file.html)
+![My Project Logo](https://imgur.com/a/HFF4opo)
