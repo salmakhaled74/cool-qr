@@ -7,35 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
     <title>QR Generator</title>
+    <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
 </head>
 
 <body>
-    <div class="navv"></div>
-    <div class="main">
-        <div class="text">
-            <h1 class="h1">Welcome to the awsome QR code generator</h1>
-            <form>
-                <div class="ourinput">
-                    <input type="url" required="required" placeholder="URL" id="inputVal">
-                </div>
-                <div class="bdiv">
-                    <button class="btn1" type="button">Generate</button>
-                </div>
-            </form>
-            <div class="qrcode"><img src="" class="square"></div>
-            <div class="download">
-                <button class="btn2">Again
-                </button>
-            </div>
+    <div class="navv">
+        <div class="nav2">
+            <button class="Generate">Generate</button>
+            <button class="Scann">Scan</button>
         </div>
-        <div class="cartoon"><img src="4209056.jpg" alt="QR"></div>
-    </div>
-    <div class="f">
-        <footer>
-            <p>© 2023 Salma Khaled</p>
-        </footer>
-    </div>
-    <script src="apps.js"></script>
+        <div class="all">
+            <div class="div1">
+                <div class="main">
+                    <div class="text">
+                        <h1 class="h1">Welcome to the awsome QR code generator</h1>
+                        <form>
+                            <div class="ourinput">
+                                <input type="url" required="required" placeholder="URL" id="inputVal">
+                            </div>
+                            <div class="bdiv">
+                                <button class="btn1" type="button">Generate</button>
+                            </div>
+                        </form>
+                        <div class="qrcode"><img src="" class="square"></div>
+                        <div class="download">
+                            <button class="btn2">Again</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="div2">
+                <div class="main2">
+                    <div class="text2">
+                        <h1 class="h1">Welcome to the awsome QR code scanner</h1>
+                        <form>
+                            <div class="ourinput">
+                                <input type="file" class="inputFile">
+                            </div>
+                            <div class="bdiv2">
+                                <button class="upload">Scan</button>
+                            </div>
+                        </form>
+                        <div class="URLoutput"></div>
+                        <div class="over">
+                            <button class="btn3">Again</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cartoon"><img src="4209056.jpg" alt="QR"></div>
+        </div>
+        <div class="f">
+            <footer>
+                <p>© 2023 Salma Khaled</p>
+            </footer>
+        </div>
+        <script src="apps.js"></script>
 </body>
 
 </html>
