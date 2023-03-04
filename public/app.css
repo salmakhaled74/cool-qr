@@ -3,18 +3,6 @@
   font-family: Tahoma, Verdana, sans-serif;
   text-align: center;
 }
-@media (max-width: 1202px) {
-  .div1,.cartoon {
-    width: 100%;
-    max-width: 100%;
-  }
-  .all {
-    order: 2;
-  }
-  .cartoon {
-    order: 1;
-  }
-}
 .cartoon {
   display: flex;
   justify-content: center;
@@ -175,4 +163,38 @@ input[type="file"] {
 }
 .Generate, .Scann{
   margin-top: 50px;
+}
+@media (max-width: 1202px) {
+  .div1, .cartoon {
+    width: 100%;
+    max-width: 100%;
+  }
+  .all {
+    order: 2;
+  }
+  .cartoon {
+    order: 1;
+  }
+  .btn2 {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .btn2 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #45a1ff;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .cartoon {
+    max-width: 50%;
+    height: auto;
+    order: 1;
+  }
+  .all {
+    align-items: flex-start;
+  }
 }
